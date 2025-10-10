@@ -1,0 +1,166 @@
+.testimonial-section {
+  position: relative;
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url('src/assets/testbg.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+.testimonial-heading {
+  position: relative;
+  z-index: 2;
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.blank {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.testimonial-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  transition: all 0.5s ease-in-out;
+}
+
+.quote-icon {
+  font-size: 80px;
+  line-height: 0.5;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e5e5e5;
+  margin-bottom: 40px;
+  transition: opacity 0.3s ease;
+}
+
+.testimonial-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.user-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #ff6600;
+}
+
+.user-name {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.user-title {
+  margin: 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.testimonial-nav {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: #ccc;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: #ccc;
+  font-size: 22px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-btn:hover {
+  color: #fff;
+}
+
+
+/* Mobile landscape */
+@media (max-width: 768px) {
+  .testimonial-section {
+    min-height: 400px;
+    padding: 40px 15px;
+  }
+  .testimonial-heading {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  .quote-icon {
+    font-size: 50px;
+  }
+
+  .testimonial-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .testimonial-user {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .user-name {
+    font-size: 17px;
+  }
+
+  .testimonial-nav {
+    margin-top: 30px;
+  }
+}
+
+/* Mobile portrait */
+@media (max-width: 480px) {
+  .testimonial-section {
+    padding: 30px 10px;
+  }
+
+  .quote-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+
+  .testimonial-text {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .user-image {
+    width: 55px;
+    height: 55px;
+  }
+
+  .user-name {
+    font-size: 16px;
+  }
+
+  .user-title {
+    font-size: 13px;
+  }
+
+  .nav-btn {
+    font-size: 20px;
+  }
+}

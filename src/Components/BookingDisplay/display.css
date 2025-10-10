@@ -1,0 +1,91 @@
+/* result.css */
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+}
+
+.result-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 30px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(12px);
+  animation: fadeIn 0.8s ease;
+}
+
+.result-card h1 {
+  font-size: 26px;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.result-card h2 {
+  font-size: 20px;
+  color: #eee;
+  margin-bottom: 25px;
+}
+
+.brand {
+  color: #00bfff;
+  font-weight: 700;
+}
+
+.summary-card {
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 25px;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.summary-card strong {
+  color: #00bfff;
+}
+
+.thanks {
+  font-size: 15px;
+  color: #ddd;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.home-btn {
+  background: linear-gradient(90deg, #00bfff, #007bff);
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.home-btn:hover {
+  background: linear-gradient(90deg, #007bff, #00bfff);
+  transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

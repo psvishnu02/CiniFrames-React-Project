@@ -1,0 +1,87 @@
+
+
+/* === Why Choose Us Section === */
+.why-choose-us {
+  position: relative;
+  background-image: url('https://images.pexels.com/photos/12320052/pexels-photo-12320052.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  padding: 60px;
+  max-width: 600px;
+}
+
+.content h2 {
+  font-size: 48px;
+  font-weight: 200;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+/* === Features === */
+.features {
+  display: flex;
+  flex-direction:column;
+  gap: 30px;
+}
+
+.feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.feature i {
+  font-size: 30px;
+  color: #fff;
+  background: rgba(255,255,255,0.1);
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.feature h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 5px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.feature p {
+  color: #ccc;
+  font-size: 15px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* === Responsive Design === */
+@media (max-width: 900px) {
+  .why-choose-us {
+    height: auto;
+  }
+
+  .content {
+    padding: 40px 20px;
+  }
+
+  .content h2 {
+    font-size: 36px;
+  }
+}

@@ -1,0 +1,79 @@
+.back{
+    background-image: url('https://images.pexels.com/photos/458917/pexels-photo-458917.jpeg');
+    background-size: cover;
+    margin-top: -120px;
+    padding-top: 80px;
+}
+.booking {
+  max-width: 500px;
+  height:auto;
+  margin: 30px auto;
+  padding: 10px 30px;
+  background: #f9f9f9;
+  background: url('https://images.pexels.com/photos/3009672/pexels-photo-3009672.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.booking h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.booking form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color:black;
+}
+
+.booking input,
+.booking button,
+.booking .react-datepicker-wrapper input {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.booking input:focus,
+.booking .react-datepicker-wrapper input:focus {
+  border-color:#007bff;
+  border-width:4px;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+.booking button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.booking button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .booking {
+    padding: 30px 20px;
+    margin: 20px;
+  }
+
+  .booking input,
+  .booking button {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+}
