@@ -1,7 +1,7 @@
 
 /* Hero Section */
 .abt-main {
-  background: url('src/assets/abtbg.jpg') center/cover no-repeat;
+  background: url('../../assets/abtbg.jpg') center/cover no-repeat;
   height: 40vh;
   display: flex;
   align-items: center;
