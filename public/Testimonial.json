@@ -3,24 +3,24 @@
             "text": "Our wedding photos were absolutely stunning! Every emotion was captured beautifully — from candid laughter to the quiet, intimate moments. Truly professional and heartfelt work!",
             "name":"Alexa",
             "place":"calicut",
-            "image":"public/images/test1.jpg"
+            "image":"/public/images/test1.jpg"
     },
     {
             "text": "From pre-wedding shoots to the final ceremony, their team made everything feel effortless. The photos tell our story better than we ever imagined. Thank you for the memories!",
             "name":"Henry",
             "place":"Kochi",
-            "image":"public/images/test2.jpg"
+            "image":"/public/images/test2.jpg"
     },
     {
             "text": "Their creativity and timing are unmatched! The birthday photoshoot for my son was fun and full of joy — we’ll treasure these pictures forever.",
             "name":"John",
             "place":"Trissur",
-            "image":"public/images/test3.jpg"
+            "image":"/public/images/test3.jpg"
     },
     {
             "text": "We hired them for our daughter’s first birthday, and the photos came out magical! The colors, expressions, and little details were all captured perfectly. Highly recommend for family events!",
             "name":"Aleena",
             "place":"calicut",
-            "image":"public/images/test4.jpg"
+            "image":"/public/images/test4.jpg"
     }
 ]
