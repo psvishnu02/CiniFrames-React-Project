@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image:url('https://images.pexels.com/photos/1548020/pexels-photo-1548020.jpeg');
+  background-image:url('../../assets/testbg.jpg');
   background-size: cover;
   color: white;
   text-align: center;
